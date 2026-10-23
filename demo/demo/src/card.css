@@ -1,0 +1,72 @@
+div {
+  text-align: center;
+}
+
+img {
+  width: 500px;
+  border-radius: 10px;
+}
+
+h1 {
+  color: white;
+}
+
+div div {
+  margin: 10px;
+  font-size: 20px;
+  color: white;
+}
+
+.card {
+  width: 380px;
+  margin: 2px;
+  text-align: center;
+  background: rgb(111, 52, 52);
+  padding: 2px;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px gray;
+}
+
+.card img {
+  width: 100%;
+  height: 280px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.card h1 {
+  color: black;
+  margin-bottom: 20px;
+}
+
+.card div {
+  margin: 10px;
+  font-size: 20px;
+}
+
+button:hover {
+  color: red;
+}
+
+button:active {
+  color: rgb(20, 36, 185);
+}
+
+.main {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.passed {
+  color:black;
+  background-color: green;
+}
+
+.fail {
+  color: rgb(136, 135, 135);
+  background-color: red;
+}
